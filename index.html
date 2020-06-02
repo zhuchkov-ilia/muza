@@ -48,9 +48,23 @@
         </div>
         <br/>
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-9">
-                <div class="row track-desc">
+            <div class="col-2 filters">
+                <h3>Фильтры</h3>
+                <div class="price-filter">
+                    <h4>По цене</h4>
+                    <input type="number" id="price-floor" value="0"/> $ -
+                    <input type="number" id="price-ceil" value="100000"/> $
+                </div>
+                <div class="genre-filter">
+                    <h4>По жанру</h4>
+                    <label style="color: #2A8206"><input type="checkbox" name="genre" value="Rock">      Рок</label><br/>
+                    <label style="color: #B9C119"><input type="checkbox" name="genre" value="Jazz">      Джаз</label><br/>
+                    <label style="color: #C70039"><input type="checkbox" name="genre" value="Rap">       Хип-хоп</label>
+                </div>
+                <button id="submit-filter">Применить</button>
+            </div>
+            <div class="col-9 tracks">
+                <div class="row track-desc" data-price="1000" data-genre="Rock">
                        <div class="col-1">
                            <img class="track-avatar" src="http://placehold.it/100x100?text=Comp"/>
                        </div>
@@ -65,15 +79,75 @@
                             <img src="http://wp-sb.com/GreenLine.png" style="height:120px; width: 100%"/>
                         </div>
                         <div class="col-2">
-                            <button class="btn buy-btn">100$<br/>Купить</button>
+                            <button class="btn buy-btn" data-price="1000">1000$<br/>Купить</button>
                         </div>
+                </div>
+                <div class="row track-desc" data-price="100" data-genre="Jazz">
+                    <div class="col-1">
+                        <img class="track-avatar" src="http://placehold.it/100x100?text=Comp"/>
+                    </div>
+                    <div class="col-2 track-name">
+                        <a><h4>Барабаншик мажет</h4></a>
+                        <a><h6>Басист</h6></a>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-6">
+                        <img src="http://wp-sb.com/GreenLine.png" style="height:120px; width: 100%"/>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn buy-btn" data-price="100">100$<br/>Купить</button>
+                    </div>
+                </div>
+                <div class="row track-desc" data-price="10" data-genre="Rock">
+                    <div class="col-1">
+                        <img class="track-avatar" src="http://placehold.it/100x100?text=Comp"/>
+                    </div>
+                    <div class="col-2 track-name">
+                        <a><h4>Мастер<br/>синтов</h4></a>
+                        <a><h6>Наёмный клавишник</h6></a>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-6">
+                        <img src="http://wp-sb.com/GreenLine.png" style="height:120px; width: 100%"/>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn buy-btn" data-price="10">10$<br/>Купить</button>
+                    </div>
+                </div>
+                <div class="row track-desc" data-price="50" data-genre="Rap">
+                    <div class="col-1">
+                        <img class="track-avatar" src="http://placehold.it/100x100?text=Comp"/>
+                    </div>
+                    <div class="col-2 track-name">
+                        <a><h4>Крики<br/>чаек</h4></a>
+                        <a><h6>Вокалист</h6></a>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-6">
+                        <img src="http://wp-sb.com/GreenLine.png" style="height:120px; width: 100%"/>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn buy-btn" data-price="50">50$<br/>Купить</button>
+                    </div>
                 </div>
             </div>
         </div>
+        <br/>
+        <div class="row footer">
+            <h4>&copy;	Жадная муза, 2020</h4>
+        </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>

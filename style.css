@@ -1,3 +1,5 @@
+/* Менюшки */
+
 h1{
     font-family: 'Comic Sans MS';
     color: white
@@ -9,12 +11,21 @@ h1{
     text-align:center
 }
 
+.main-buttons:hover{
+    background-color: #4AC219;
+    cursor: pointer;
+}
+
 #btn-login{
     text-align:center;
     color: white;
     font-size: 20pt;
     background-color: #4AC219;
+}
 
+#btn-login:hover{
+    font-family: "Comic Sans MS";
+    cursor: pointer;
 }
 
 .categories li{
@@ -22,9 +33,12 @@ h1{
     color: #2A8206;
     margin-left: 40px;
 }
-.categories li.active{
+.categories li.active, .categories li:hover{
     color: #4AC219;
+    cursor: pointer;
 }
+
+
 
 #search{
     background-color:#4AC219;
@@ -49,17 +63,19 @@ h1{
     width: 100px;
 }
 
+/* Оформление лотов */
 
 .track-desc{
     border: #2A8206 4px solid;
     margin-left: 0px;
+    margin-bottom:42px;
 }
 
 .track-avatar{
     margin:10px
 }
 
-.track-name{
+.track-name {
     color: #2A8206;
 }
 
@@ -77,4 +93,88 @@ h1{
     width: 100%;
     height: 120px;
     font-size: 30px;
+}
+
+/* Вариации по жанрам */
+.track-desc[data-genre='Jazz'] {
+    border-color:#B9C119;
+}
+
+.track-desc[data-genre='Jazz'] .track-name{
+    color:#B9C119;
+}
+
+.track-desc[data-genre='Jazz'] .fa-play-circle{
+    color:#B9C119;
+}
+
+.track-desc[data-genre='Jazz'] .buy-btn{
+    background-color: #B9C119;
+    border-color: #B9C119;
+}
+
+.track-desc[data-genre='Rap'] {
+    border-color:#C70039;
+}
+
+.track-desc[data-genre='Rap'] .track-name{
+    color:#C70039;
+}
+
+.track-desc[data-genre='Rap'] .fa-play-circle{
+    color:#C70039;
+}
+
+.track-desc[data-genre='Rap'] .buy-btn{
+    background-color: #C70039;
+    border-color: #C70039;
+}
+
+
+/* Фильтры */
+
+.filters{
+    border: #2A8206 2px solid;
+    border-left: none;
+    padding-top: 21px;
+    color: #2A8206;
+    position: relative;
+    min-height: 600px;
+}
+
+.filters h3{
+    color: #2A8206;
+}
+
+.filters h4{
+    color: #71C521;
+}
+
+
+.price-filter input{
+    width: 40%;
+}
+
+
+.genre-filter label{
+    margin-left: 20%;
+    font-size: 16pt;
+}
+
+.unvisible{
+    display: none;
+}
+
+#submit-filter{
+    bottom: 42px;
+    position: absolute;
+    font-size: 16pt;
+    color: #2A8206;
+}
+
+
+.footer{
+    background-color: #4AC219;
+    color: white;
+    padding: 42px;
 }
