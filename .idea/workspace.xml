@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c6a6c9-23f2-4873-88f3-adf09676288a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dave_Brubeck_-_Eleven_Four_11_4_(iPlayer.fm).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muzlome_Coolio_-_Gangstas_Paradise_47978745.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muzlome_Sabaton_-_Fields_of_Verdun_63973064.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -40,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -82,21 +84,42 @@
       <workItem from="1591100160728" duration="1804000" />
       <workItem from="1591101983233" duration="1793000" />
       <workItem from="1591103795616" duration="1792000" />
-      <workItem from="1591105610548" duration="246000" />
+      <workItem from="1591105610548" duration="331000" />
+      <workItem from="1591178822620" duration="1757000" />
     </task>
+    <task id="LOCAL-00001" summary="Filtres">
+      <created>1591105885703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591105885703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Filtres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtres" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="113" key="CommitChangelistDialog2" timestamp="1591105884913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591105884913" />
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1591098348106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591098348106" />
-    <state x="654" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1591105613512">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591105900049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591105613512" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591105900049" />
+    <state x="654" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1591180699611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591180699611" />
   </component>
 </project>

@@ -71,6 +71,10 @@ h1{
     margin-bottom:42px;
 }
 
+.track-desc audio{
+    height: 90px;
+}
+
 .track-avatar{
     margin:10px
 }
